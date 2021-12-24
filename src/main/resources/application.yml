@@ -1,0 +1,6 @@
+jwt:
+  secret: s3cre!k3y
+server:
+  port: 8081
+
+    

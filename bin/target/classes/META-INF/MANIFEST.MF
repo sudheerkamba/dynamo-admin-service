@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: user
+Build-Jdk: 17
+Implementation-Title: flight-admin-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.flightapp
+Implementation-URL: https://spring.io/projects/spring-boot/flight-admin-
+ service
+Created-By: Maven Integration for Eclipse
+
