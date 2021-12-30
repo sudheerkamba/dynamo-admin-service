@@ -60,7 +60,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		httpSecurity.cors().disable();
 		httpSecurity.csrf().disable()
 				// dont authenticate this particular request
-				.authorizeRequests().antMatchers("/api/v1.0/flight/admin/login").permitAll()
+				.authorizeRequests().antMatchers("/api/v1.0/flight/admin/login","/api/v1.0/flight/airlines","/api/v1.0/flight/airline/inventory/add").permitAll()
 				// all other requests need to be authenticated
 				.anyRequest().authenticated().and().
 				// make sure we use stateless session; session won't be used to
